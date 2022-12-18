@@ -14,6 +14,11 @@ Aplicació que recupera i prepara les dades d'electrocardiogrames de FitBit per 
 
 **framework**:
 
-- Hem utilizat el framework `kivy` de python ja que és fàcilment exportable a una Android APK 
+- Hem utilizat el framework `kivy` de python ja que és fàcilment exportable a una Android APK
+
+**per utilizar-la:
+
+- executar main.py
+- `cleandata.sh` es una script que esborra el contingut dels diferents directoris de data
 
 Per: Ferran Fuentes, Joel Macias, Marcel Sánchez, Sergio Sanz
