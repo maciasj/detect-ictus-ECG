@@ -1,7 +1,7 @@
 # detect-ictus-ECG
 Aplicació que recupera i prepara les dades d'electrocardiogrames de FitBit per a l'entrega a un clúster on una IA valorarà el risc de ictus. 
 
-**Features**: Simple interfaç gràfica amb un bot funcional que al clickar faría el següent:
+**Features**: Simple interfaç gràfica amb un botó funcional que al clickar faría el següent:
 
 - Demana al usuari les credencials de la seva compte de Fitbit per tal d'autoritzar l'aplicació 
 - Descarrega els arxius que contenen el heart-rate, el transforma a .csv i després a .mat
