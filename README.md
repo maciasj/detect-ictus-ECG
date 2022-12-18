@@ -12,7 +12,7 @@ Aplicació que recupera i prepara les dades d'electrocardiogrames de FitBit per 
 **Inconvenients**: 
 
 - L'API de fitbit demana les credencials només el primer cop que s'inicia la app, quan això passa si trigues molt en afegir les credencials l'aplicació crashea. 
-- Els arxius del fitbit no es procesen bé ja que fan servir una taxa de mostreig diferent al que la IA pot reconeixer degut al seu entrenament 
+- Els arxius del fitbit no es processen bé ja que fan servir una taxa de mostreig diferent al que la IA pot reconixer degut al seu entrenament 
 - Com el resultat del log que interpreta el arxiu no te cap label, per tal de treure'l per pantalla hem de imprimir el número de linia exacte, això provoca que sí el format de output canvia, no podem asegurar que l'output sempre sigui correcte.
 
 **framework**:
