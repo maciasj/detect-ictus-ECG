@@ -1,10 +1,13 @@
 # detect-ictus-ECG
-Aplicació que recupera i prepara les dades d'electrocardiogrames de FitBit per a l'entrega a un cluster on una IA valorarà el risc de ictus. 
+Aplicació que recupera i prepara les dades d'electrocardiogrames de FitBit per a l'entrega a un clúster on una IA valorarà el risc de ictus. 
 
-**Features**: Simple interfaç gràfica amb un botò funcional que al clickar faría el següent:
+**Features**: Simple interfaç gràfica amb un bot funcional que al clickar faría el següent:
 
 - Demana al usuari les credencials de la seva compte de Fitbit per tal d'autoritzar l'aplicació 
-- Descarga els arxius que conté el heart-rate, el transforma a .csv i després a format matlab 3- Envía els arxius a través de l'API de l'OSCAR al cluster, els processa i retorna un arxiu 4- Per l'aplicació surt la linea del resultat del .log 5- Per asegurar que el nom de cada lgo és únic, s'identifiquen per userID + timestamp.
+- Descarrega els arxius que contenen el heart-rate, el transforma a .csv i després a .mat
+- Envía els arxius a través de l'API de OSCAR al cluster, els processa i retorna un arxiu .log amb els resultats de la inferència
+- Per l'aplicació surt la linea del resultat del .log 
+- Per asegurar que el nom de cada log és únic i que no hagin colisions al clúster, s'identifiquen per userID + timestamp.
 
 **Inconvenients**: 
 
